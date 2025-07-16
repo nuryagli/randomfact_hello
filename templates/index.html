@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Dünyası</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS dosyasını static klasöründen çağırıyoruz -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Hoş Geldin Flask Dünyasına! 🌟</h1>
+        <a href="/random-fact">🔮 Rastgele Bilgi Göster</a>
+        <a href="/hello">💬 İsmini Yaz ve Merhaba De</a>
+    </div>
+</body>
+</html>
